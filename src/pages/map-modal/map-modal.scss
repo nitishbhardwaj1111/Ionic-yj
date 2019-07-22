@@ -1,0 +1,12 @@
+page-map-modal {
+    .close-icon {
+        position: absolute;
+        font-size: 46px;
+        color: #000;
+        z-index: 1;
+        right: 20px;
+    }
+    .scroll-content {
+        padding: 0 !important;
+    }
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>709822967982-26ul8ha1f8nq65f5ubgtd72v6t05gftj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.709822967982-26ul8ha1f8nq65f5ubgtd72v6t05gftj</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAS2-QgGk090VrFy9iY626dyx1uu_E37vk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>709822967982</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.yummJoy.user</string>
+	<key>PROJECT_ID</key>
+	<string>yummjoy-198011</string>
+	<key>STORAGE_BUCKET</key>
+	<string>yummjoy-198011.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:709822967982:ios:68168510f00275f1</string>
+	<key>DATABASE_URL</key>
+	<string>https://yummjoy-198011.firebaseio.com</string>
+</dict>
+</plist>

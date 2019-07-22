@@ -1,0 +1,32 @@
+<ion-menu [content]="content" >
+  <ion-header class="home-menu">
+    <div class="logo-menu" padding>
+      <img src="assets/imgs/Untitled-1.png">
+      <ion-item *ngIf='username'>
+
+        <h2 class="text-white">Hey {{username}},</h2>
+        <p>+91 {{mobileNumber}}
+        </p>
+      </ion-item>
+      
+      <ion-item (click)="Signup()" *ngIf="!username && !mobileNumber " menuClose >
+        <h2 class="text-white">Signup/Login</h2>
+          <ion-avatar item-start text-center>
+          <ion-icon name="md-person-add" class="text-white"></ion-icon>
+        </ion-avatar>
+      </ion-item>
+    </div>
+  </ion-header>
+  <ion-content>
+    <ion-list *ngIf="username && mobileNumber ">
+      <ion-item menuClose (click)="homePage()" >
+        <ion-avatar item-start text-center>
+          <ion-icon name="ios-home" class="text-white"></ion-icon>
+        </ion-avatar>
+        <h2 class="text-white">Home</h2>
+        <p>Explore Food & Chef</p>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>

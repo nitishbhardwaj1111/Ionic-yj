@@ -1,0 +1,68 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="ios-arrow-back" class="text-white"></ion-icon>
+    </button>
+    <ion-title>
+      <span class="text-white">Manage Address</span>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <ion-card class="add-address">
+    <ion-item class="input-register">
+      <ion-label floating>Address Type</ion-label>
+      <ion-input type="text" [(ngModel)]='type'></ion-input>
+    </ion-item>
+    <ion-item class="input-register">
+      <ion-label floating>Apartment/Building Name</ion-label>
+      <ion-input type="text" [(ngModel)]='apartment'></ion-input>
+    </ion-item>
+    <ion-item class="input-register">
+      <ion-label floating>Door No/Block/Company Name
+        <span class="star">*</span>
+      </ion-label>
+      <ion-input type="text" [(ngModel)]='doorNumber'></ion-input>
+    </ion-item>
+    <ion-item class="input-register">
+      <ion-label floating>Street</ion-label>
+      <ion-input type="text" [(ngModel)]='street'></ion-input>
+    </ion-item>
+    <ion-item class="input-register">
+      <ion-label floating>Area
+        <span class="star">*</span>
+      </ion-label>
+      <ion-input type="text" [(ngModel)]='area'></ion-input>
+    </ion-item>
+    <ion-item class="input-register">
+      <ion-label floating>City
+        <span class="star">*</span>
+      </ion-label>
+      <ion-input type="text" [(ngModel)]='city'></ion-input>
+    </ion-item>
+    <ion-row>
+      <ion-col no-padding col-12>
+        <ion-item class="input-register">
+          <ion-label floating>State
+            <span class="star">*</span>
+          </ion-label>
+          <ion-input type="text" [(ngModel)]='state' disabled></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-item class="input-register">
+      <ion-label floating>Country
+        <span class="star">*</span>
+      </ion-label>
+      <ion-input type="text" [(ngModel)]='country' disabled></ion-input>
+    </ion-item>
+    <ion-card>
+      <button ion-button no-margin full class="bg-green full-borttom btn" (click)="onSave()">
+        <span class="footer-text">{{buttonText}}</span>
+      </button>
+      <button ion-button no-margin full class="bg-green full-borttom btn" (click)="openMapModal()">
+        <span class="footer-text">Select location on map</span>
+      </button>
+    </ion-card>
+  </ion-card>
+</ion-content>

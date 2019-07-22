@@ -1,0 +1,23 @@
+<ion-header class="custom-header"></ion-header>
+<ion-content>
+  <div class="bg-contact">
+  </div>
+  <div class="log_in">
+    <ion-grid class="grid" no-padding>
+      <ion-list>
+        <ion-row>
+          <ion-col class="push-center">
+            <img src="assets/imgs/no-internet.png">
+          </ion-col>
+        </ion-row>
+      </ion-list>
+    </ion-grid>
+    <ion-row class="text-content">
+      <ion-col text-center>
+        <p class="no-internet-text">Connection Error </p>
+        <p class="below-text">Please check your internet connectivity and <br /> try again</p>
+        <button ion-button class="bg-green" (click)="connectNow()">RETRY</button>
+      </ion-col>
+    </ion-row>
+  </div>
+</ion-content>

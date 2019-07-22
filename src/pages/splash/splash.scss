@@ -1,0 +1,20 @@
+page-splash {
+    .bg-theme {
+        background: url(../assets/imgs/bg.png) !important;
+        background-attachment: fixed !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+    }
+
+    .logo {
+        position: absolute;
+        width: 120%;
+        margin: auto;
+        top: 3.5rem;
+        left: 0;
+        right: 0;
+        max-width: 190px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}

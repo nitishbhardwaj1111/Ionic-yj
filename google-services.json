@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "709822967982",
+    "firebase_url": "https://yummjoy-198011.firebaseio.com",
+    "project_id": "yummjoy-198011",
+    "storage_bucket": "yummjoy-198011.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709822967982:android:68168510f00275f1",
+        "android_client_info": {
+          "package_name": "com.yummJoy.user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "709822967982-e7fkc5te37pobkp1tlbbo8m1t4d0k8qq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ8zClRxPhy6GFYgnA2a6c_oWyBpP6JiU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709822967982:android:5004b77e7f707f02",
+        "android_client_info": {
+          "package_name": "com.yummjoy.chef"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "709822967982-e7fkc5te37pobkp1tlbbo8m1t4d0k8qq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ8zClRxPhy6GFYgnA2a6c_oWyBpP6JiU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

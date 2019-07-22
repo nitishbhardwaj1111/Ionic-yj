@@ -1,0 +1,41 @@
+page-add-address {
+
+    .add-address {
+        padding: 0px 0px 15px;
+
+        .input-register {
+            color: #000;
+            padding-right: 16px; 
+        }
+
+        .label-md[stacked], .label-md[floating] {
+            margin-left: 0;
+            color: #00b211;
+            margin-bottom: 0;
+        }
+        .star {
+            color: red;
+        }
+    }
+
+    .cart {
+        position: absolute;
+        z-index: 1;
+        right: 2.0rem;
+        top: 18px;
+        font-size: 2rem;
+        ion-badge {
+            border-radius: 50%;
+            font-size: .9rem !important;
+            font-weight: 400;
+            height: 16px;
+            width: 16px;
+            text-align: center;
+            padding: 0;
+            line-height: 16px;
+            position: absolute;
+            margin-top: -.9rem;
+            right: -8px;
+        }
+    }
+}

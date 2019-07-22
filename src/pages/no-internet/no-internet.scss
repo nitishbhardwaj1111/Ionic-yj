@@ -1,0 +1,68 @@
+page-no-internet {
+  .log_in {
+    margin-top: 60px !important;
+    max-width: 90%;
+    margin: 0 auto;
+
+    @media only screen and (max-width: 360px) {
+      max-width: 95%;
+    }
+
+    @media only screen and (max-width: 330px) {
+      max-width: 100%;
+    }
+
+    .row {
+        margin-top: 50px;
+    }
+
+    .text-content {
+      margin-top: 10px !important;
+    }
+
+    .col {
+      padding-top: 0px !important;
+      padding-bottom: 0px !important;
+      
+      .no-internet-text {
+        font-size: 18px;
+        font-weight: 500;
+        color: #5d6070;
+        text-transform: uppercase;
+      }
+      .below-text {
+        margin-top: -10px !important;
+        color: #bcbec3;
+        font-size: 14px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+
+.platform-ios {
+  page-about-us {
+    .toolbar-content {
+      position: relative;
+      height: 44px;
+    }
+
+    .toolbar-ios ion-title {
+      display: flex;
+      padding: 0px !important;
+      padding-left: 10px !important;
+      min-height: 44px !important;
+      height: 44px !important;
+    }
+
+    .content-ios {
+      margin-top: 0px;
+    }
+
+    .custom-header {
+      height: 20px;
+      background: #ce5c34;
+      min-height: 20px;
+    }
+  }
+}
